@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Crawler</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Enter URL to Crawl</h1>
+    <form action="/crawl" method="post">
+        <div class="input-group">
+            <input type="text" name="url" placeholder="Enter URL" required>
+        </div>
+        <div class="input-group">
+            <label>
+                <input type="checkbox" name="isPaying" value="true">
+                I am a paying customer
+            </label>
+        </div>
+        <div class="input-group">
+            <button type="submit">Crawl</button>
+        </div>
+    </form>
+</div>
+
+<!-- Add a div to display the crawled page content -->
+<div id="result" class="container">
+    <!-- The page content will be displayed here -->
+</div>
+
+<script src="/assets/js/scripts.js"></script>
+</body>
+
+</html>

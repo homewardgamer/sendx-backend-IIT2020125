@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore log files
+log/
+logs/
+
+# Ignore binary executables
+bin/
+
+# Ignore the /files directory
+files/*
+
+
+
