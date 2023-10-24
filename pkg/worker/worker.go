@@ -1,10 +1,11 @@
 package worker
 
 import (
-	"github.com/TheRealSibasishBehera/go-web-crawler/pkg/crawler"
-	"github.com/TheRealSibasishBehera/go-web-crawler/pkg/storage"
 	"sync"
 	"time"
+
+	"github.com/homewardgamer/sendx-backend-IIT2020125/pkg/crawler"
+	"github.com/homewardgamer/sendx-backend-IIT2020125/pkg/storage"
 )
 
 type Job struct {

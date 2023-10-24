@@ -1,11 +1,11 @@
 package api
 
 import (
-	"github.com/TheRealSibasishBehera/go-web-crawler/pkg/storage"
-	"github.com/TheRealSibasishBehera/go-web-crawler/pkg/worker"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/homewardgamer/sendx-backend-IIT2020125/pkg/storage"
+	"github.com/homewardgamer/sendx-backend-IIT2020125/pkg/worker"
 )
 
 func HandleCrawlRequest(c *gin.Context) {

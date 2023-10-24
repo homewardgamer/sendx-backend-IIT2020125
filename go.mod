@@ -1,4 +1,4 @@
-module github.com/TheRealSibasishBehera/go-web-crawler
+module github.com/homewardgamer/sendx-backend-IIT2020125
 
 go 1.19
 

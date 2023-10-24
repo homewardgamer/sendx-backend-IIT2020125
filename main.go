@@ -1,11 +1,13 @@
 package main
 
 import (
-	"github.com/TheRealSibasishBehera/go-web-crawler/api"
-	"github.com/TheRealSibasishBehera/go-web-crawler/pkg/worker" // Import the worker package
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	// Import the worker package
+	"github.com/gin-gonic/gin"
+	"github.com/homewardgamer/sendx-backend-IIT2020125/api"
+	"github.com/homewardgamer/sendx-backend-IIT2020125/pkg/worker"
 )
 
 func main() {
