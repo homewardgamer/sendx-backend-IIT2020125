@@ -48,4 +48,4 @@ Detailed routes and their respective functionalities are defined within the proj
 
 ## Youtube link
 
-### Here's the youtube link for the tutorial (here)[https://youtu.be/aWj7-09TVM8].
+### Here's the youtube link for the tutorial [here](https://youtu.be/aWj7-09TVM8).
