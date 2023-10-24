@@ -45,3 +45,7 @@ Detailed routes and their respective functionalities are defined within the proj
 - Install necesssary dependencies by `go install`
 - Run the server by `go run .`
 ---
+
+## Youtube link
+
+### Here's the youtube link for the tutorial (here)[https://youtu.be/aWj7-09TVM8].
